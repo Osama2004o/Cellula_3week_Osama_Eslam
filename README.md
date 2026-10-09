@@ -32,20 +32,25 @@ A comprehensive study notebook covering the [BigBird paper](https://arxiv.org/ab
 
 ## 🤖 Task 1 — Personal Knowledge Base RAG Pipeline
 
-An end-to-end **Retrieval-Augmented Generation (RAG)** system that answers questions about a personal knowledge base document.
+An end-to-end **Retrieval-Augmented Generation (RAG)** system that answers questions using multiple data sources — a local knowledge base file, a LinkedIn profile, and a GitHub repository.
 
 ### Pipeline Steps
 
-1. **Document Loading** — Uses `TextLoader` (LangChain) to ingest [`osama_eslam_personal_knowledge_base.txt`](osama_eslam_personal_knowledge_base.txt).
-2. **Chunking** — Splits the document with `TokenTextSplitter` (chunk size 700, overlap 100).
+1. **Document Loading (multi-source)**
+   - **Local:** Uses `TextLoader` to ingest [`osama_eslam_personal_knowledge_base.txt`](osama_eslam_personal_knowledge_base.txt).
+   - **Web:** Uses `WebBaseLoader` to scrape and load:
+     - [LinkedIn profile](https://www.linkedin.com/in/osamaeslam)
+     - [Product-Market-Search GitHub repo](https://github.com/Osama2004o/Product-Market-Search)
+2. **Chunking** — Splits all documents with `TokenTextSplitter` (chunk size 700, overlap 100).
 3. **Embedding** — Generates dense vectors using `sentence-transformers/all-MiniLM-L6-v2` via HuggingFace BGE Embeddings.
 4. **Vector Store** — Indexes chunks in a **FAISS** in-memory vector store for similarity search.
-5. **Prompt Construction** — Retrieves the top-k similar chunks and formats them into a grounded prompt template.
+5. **Prompt Construction** — Retrieves the top-k similar chunks and formats them into a grounded prompt template that is aware of multi-source context (knowledge base, LinkedIn, GitHub).
 6. **LLM Generation** — Sends the prompt to an LLM via **OpenRouter API** (`ChatOpenAI`) and displays the Markdown-formatted response.
 
 ### Key Technologies
 
 - **LangChain** (document loaders, text splitters, vector stores, prompt templates)
+- **WebBaseLoader** (web page scraping via BeautifulSoup4)
 - **FAISS** (Facebook AI Similarity Search)
 - **HuggingFace Transformers** (sentence-transformers for embeddings)
 - **OpenRouter API** (LLM inference)
