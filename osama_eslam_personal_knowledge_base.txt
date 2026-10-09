@@ -1,0 +1,311 @@
+================================================================================
+PERSONAL KNOWLEDGE BASE FOR RETRIEVAL-AUGMENTED GENERATION (RAG)
+SUBJECT: OSAMA ESLAM BAYOMI
+ROLE: AI ENGINEER | LLM & MACHINE LEARNING SPECIALIST
+LAST UPDATED: OCTOBER 2026
+================================================================================
+
+[RAG INGESTION GUIDANCE]
+- Recommended Chunking Strategy: Markdown / Header-based splitting (H1/H2/H3) or Fixed-size Chunking (700-1000 characters with 150-character overlap).
+- Document Structure: Each section contains explicit subject context ("Osama Eslam Bayomi") to preserve entity attribution across isolated vector embeddings.
+- Intended Use Cases: Personal AI Assistant, Portfolio Querying, Resume Q&A, Technical Competency Assessment, Automated Job Matching, and Project Evaluation.
+
+================================================================================
+SECTION 1: PERSONAL, CONTACT, AND PROFESSIONAL PROFILES
+================================================================================
+
+- Full Name: Osama Eslam Bayomi
+- Professional Title: AI Engineer | LLM & Machine Learning Specialist
+- Current Location: Giza, Egypt (Timezone: UTC+3 / Africa/Cairo)
+- Email Address: osamaeslam2013@gmail.com
+- Phone Number: +20 101 355 6509
+- LinkedIn Profile: https://www.linkedin.com/in/osamaeslam
+- GitHub Profile: https://github.com/Osama2004o
+- Spoken Languages: Arabic (Native), English (Professional Working Proficiency)
+- Core Focus Areas: Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), Multi-Agent Systems, Computer Vision, Edge ML Inference, Backend Systems Engineering (Python, FastAPI, ASP.NET Core).
+
+================================================================================
+SECTION 2: EXECUTIVE PROFESSIONAL SUMMARY
+================================================================================
+
+Osama Eslam Bayomi is an AI Engineer and Computer Science graduate from Cairo University (Faculty of Computers and Artificial Intelligence, Major in Artificial Intelligence, Class of 2022–2026). He specializes in designing, evaluating, and deploying end-to-end LLM applications, production RAG pipelines, and multi-agent workflows. 
+
+Osama has proven hands-on experience building robust AI services using Python, FastAPI, LangChain, LangGraph, CrewAI, PyTorch, and modern LLM APIs (including Google Gemini API and Qwen models). His industry background spans internships and professional programs in AI engineering, LLM pipeline benchmarking, predictive machine learning, and full-stack software development. Notably, he spearheaded the AI architecture for DoCrops, an award-winning graduation project delivering an offline-capable, 98.15% accuracy crop disease classifier, a bilingual RAG advisor, and a microservice-based decision engine.
+
+================================================================================
+SECTION 3: TECHNICAL SKILLS AND EXPERTISE MATRIX
+================================================================================
+
+1. Generative AI, LLMs & Agents:
+   - Architectures: Large Language Models (LLMs), Multi-Agent Systems, Agentic Workflows, Tool Use / Function Calling, Conversational RAG Pipelines.
+   - Frameworks & SDKs: LangChain, LangGraph, CrewAI, Gemini API, Whisper.
+   - RAG & Vector Retrieval: Dense retrieval, semantic chunking, recursive text splitting, contextual query rewriting, grounded response verification, hallucination mitigation, FAISS (Facebook AI Similarity Search), multilingual embeddings (e.g., multilingual-e5).
+   - Fine-Tuning & Prompting: Parameter-Efficient Fine-Tuning (PEFT), LoRA/QLoRA adaptation, systematic prompt engineering, prompt evaluation benchmarking, Pydantic structured output validation.
+
+2. Machine Learning, Deep Learning & Computer Vision:
+   - Methodologies: Supervised Learning, Unsupervised Learning, Feature Engineering, Exploratory Data Analysis (EDA), Dimensionality Reduction (PCA), Cross-Validation, Hyperparameter Optimization (GridSearchCV).
+   - Architectures & Models: Convolutional Neural Networks (CNN, R-CNN), Artificial Neural Networks (ANN), Transfer Learning (EfficientNet-B3), Ensemble Trees (Random Forest, XGBoost, LightGBM), Support Vector Machines (SVM), K-Means Clustering, Linear & Logistic Regression.
+   - Optimization & Edge Deployment: Post-training quantization (FP16 quantization), TensorFlow Lite (TFLite), on-device mobile inference, latency optimization.
+
+3. Programming Languages:
+   - Python: Advanced (AsyncIO, FastAPI, PyTorch, ML/DL toolchain, web scraping, multi-threading).
+   - C#: Proficient (ASP.NET Core Web API, Entity Framework Core, LINQ).
+   - SQL: Relational database design, query optimization, indexing, stored procedures.
+   - JavaScript, HTML5, CSS3: Modern ES6+, DOM manipulation, web client integration.
+
+4. Frameworks & Libraries:
+   - AI & Data Science: PyTorch, TensorFlow, Keras, Scikit-learn, Pandas, NumPy, OpenCV, Beautiful Soup, Playwright.
+   - Web & Backend: FastAPI, ASP.NET Core Web API, React.js.
+
+5. Databases & Storage:
+   - Vector Databases: FAISS (in-memory index, similarity search, dense retrieval).
+   - Relational Databases: Microsoft SQL Server, PostgreSQL.
+
+6. Developer Tools, DevOps & Methodologies:
+   - Version Control & CI/CD: Git, GitHub.
+   - Containerization & Tunnels: Docker, Docker Compose, ngrok.
+   - Automation & APIs: n8n workflow automation, Postman, REST API design, microservice architectures.
+   - Development Environment: Linux (Ubuntu/Debian), Bash, Virtual Environments.
+   - Project Management: Agile, Scrum, Jira, Sprint Planning, Code Reviews, Daily Stand-ups.
+
+================================================================================
+SECTION 4: ACADEMIC BACKGROUND AND EDUCATION
+================================================================================
+
+- Institution: Cairo University — Faculty of Computers and Artificial Intelligence (FCAI)
+- Degree: Bachelor of Science in Computer Science
+- Major: Artificial Intelligence
+- Study Period: 2022 – 2026
+- Location: Giza, Egypt
+- Key Relevant Coursework:
+  - Machine Learning & Deep Learning
+  - Natural Language Processing (NLP)
+  - Reinforcement Learning
+  - Computer Vision & Pattern Recognition
+  - Design and Analysis of Algorithms
+  - Data Structures
+  - Software Engineering & Design Patterns
+  - Database Management Systems (DBMS)
+
+================================================================================
+SECTION 5: PROFESSIONAL WORK EXPERIENCE AND INTERNSHIPS
+================================================================================
+
+1. SpaceTech
+   - Position: AI Engineer Intern
+   - Duration: September 2026 – Present
+   - Work Mode: Remote
+   - Core Responsibilities & Contributions:
+     * Active member of a cross-functional Agile/Scrum team, participating in daily stand-ups, two-week sprint planning, backlog grooming, and peer code reviews.
+     * Manages and executes development tickets using Jira to track feature delivery and bug fixes.
+     * Designs and implements AI-powered application features in Python, focusing on modularity, test coverage, and backend integration.
+
+2. Sprints.ai
+   - Position: AI Engineering Intern
+   - Duration: July 2026 – August 2026
+   - Work Mode: Remote
+   - Associated Project / Repository: MoHatemTC/ai-video-generation-app
+   - Core Responsibilities & Contributions:
+     * Contributed directly to "Sprints Video Studio", an automated AI e-learning video generation platform designed to turn lesson plans into narrated visual videos.
+     * Engineered autonomous HTML and SVG rendering agents in Python capable of dynamically generating animated, visually engaging instructional scene assets.
+     * Built the precision audio-visual alignment service: mapped voiceover audio timestamps onto discrete script elements to generate a synchronized TimestampMap, ensuring millisecond-accurate, narration-synced scene animations.
+     * Developed an LLM-powered script analysis agent that processes unstructured educational narratives, extracts core learning objectives, and outputs structured pedagogical bullet points for enhanced video comprehension.
+
+3. Tips Hindawi
+   - Position: LLMs Intern
+   - Duration: December 2025 – February 2026
+   - Work Mode: Remote
+   - Core Responsibilities & Contributions:
+     * Designed, tested, and benchmarked NLP pipelines utilizing Large Language Models to automate structured information extraction and summarization for academic research publishing workflows.
+     * Integrated high-throughput LLM endpoints into distributed microservices architectures.
+     * Established automated prompt evaluation benchmarks to quantify inference speed, token usage, precision, and hallucination reduction across diverse academic domains.
+
+4. Digital Egypt Pioneers Initiative (DEPI)
+   - Position: Generative AI Professional
+   - Duration: June 2025 – December 2025
+   - Location: Giza, Egypt
+   - Core Responsibilities & Contributions:
+     * Completed an intensive government-sponsored specialization program focusing on state-of-the-art Generative AI, LLM orchestration frameworks, and advanced prompt engineering.
+     * Executed fine-tuning experiments (PEFT, LoRA) on open-weights foundation models across domain-specific datasets.
+     * Implemented real-world model deployment strategies, containerizing AI services with Docker for scalable serving.
+
+5. Genius Technology Center (GTC)
+   - Position: Machine Learning Intern
+   - Duration: August 2025 – September 2025
+   - Work Mode: Remote
+   - Core Responsibilities & Contributions:
+     * Developed predictive analytics models on complex structured tabular datasets using supervised and unsupervised techniques (Ensemble Trees, Linear/Ridge Regression, K-Means Clustering, PCA).
+     * Carried out rigorous Exploratory Data Analysis (EDA), feature selection, and data transformation pipelines.
+     * Executed hyperparameter tuning using GridSearchCV and cross-validation strategies, significantly improving generalization accuracy.
+
+6. Digital Egypt Pioneers Initiative (DEPI)
+   - Position: Full Stack .NET Web Developer
+   - Duration: April 2024 – December 2024
+   - Location: Giza, Egypt
+   - Core Responsibilities & Contributions:
+     * Developed full-stack enterprise web solutions with ASP.NET Core Web API backends and responsive React frontend user interfaces following Agile iterations.
+     * Architected, optimized, and maintained relational database schemas in Microsoft SQL Server, optimizing complex SQL queries, views, stored procedures, and Entity Framework Core ORM mappings.
+     * Implemented secure token-based authentication and modular RESTful API endpoints.
+
+================================================================================
+SECTION 6: KEY ENGINEERING PROJECTS & GITHUB REPOSITORIES
+================================================================================
+
+1. DoCrops – Smart Agriculture Monitor (Graduation Project)
+   - GitHub Repository: https://github.com/Osama2004o/DoCrops-FCAI-Graduation-Project
+   - Project Type: Comprehensive Edge AI, Decision Support, and Bilingual RAG System for Agriculture.
+   - Target Users: Egyptian smallholder farmers and agricultural extension specialists.
+   - Technologies & Tech Stack: Python, PyTorch, EfficientNet-B3, TensorFlow Lite (TFLite), Random Forest, FAISS, Qwen2.5-7B, Google Gemini API, FastAPI, Flutter, .NET Core Microservices, Docker.
+   - Key Sub-Systems & Architectural Highlights:
+     a) On-Device Leaf Disease Classifier:
+        - Fine-tuned an EfficientNet-B3 convolutional neural network across 40 crop and plant disease classes.
+        - Applied FP16 post-training quantization to export the model into TensorFlow Lite (TFLite).
+        - Performance: Achieved 98.15% classification accuracy and 0.9818 weighted F1-score on a difficult cross-domain test set of ~5,000 unseen real-field photographs.
+        - Mobile Edge Benchmark: Delivered sub-2.4-second inference directly on mid-range Android hardware without needing internet access.
+     b) Weather-Driven Blight Risk Predictor:
+        - Trained a tabular Random Forest model using historical weather and microclimate variables.
+        - Performance: Achieved 96.88% accuracy and 0.9818 ROC-AUC, outperforming benchmark algorithms including XGBoost, SVM, and LightGBM.
+        - Deployment: Packaged as a high-performance FastAPI microservice responding in under 200 milliseconds.
+     c) Bilingual Domain RAG Assistant:
+        - Built an agricultural conversational assistant capable of fluent Arabic (including Egyptian agricultural vernacular) and English communication.
+        - Retrieval Pipeline: Utilized multilingual-e5 embeddings indexed in FAISS with contextual query rewriting.
+        - Generation & Safety: Powered by Qwen2.5-7B with an explicit "no-answer fallback" guardrail to prevent hallucinating chemical remedies. Achieved a 91.3% grounded-response rate across 30 curated agricultural benchmark test questions.
+     d) Confidence-Gated Treatment Recommender:
+        - Formulated a two-tiered decision mechanism using a calibrated 0.75 confidence threshold.
+        - Reliability: Diagnostic accuracy reached 96.2% for high-confidence predictions (>0.75) versus 71.4% for lower-confidence inputs, triggering automated expert review escalations.
+        - Delivery: Microservices written in FastAPI and .NET Core interfacing with a cross-platform mobile client built in Flutter.
+
+2. Product Market Analysis Multi-Agent Tool
+   - GitHub Repository: https://github.com/Osama2004o/Product-Market-Search
+   - Project Type: Autonomous Web Scraping, Market Intelligence, and Deal Arbitrage Multi-Agent System.
+   - Tech Stack: CrewAI, LangChain, Google Gemini API, Playwright, Beautiful Soup, FastAPI, React.js.
+   - Key Architectural Highlights:
+     - Orchestrated multi-agent collaboration with CrewAI: specialized agents for search query decomposition, live headless e-commerce scraping, sentiment/review analysis, and comparative ranking.
+     - Scrapes real-time product prices, user ratings, and inventory status across major regional retail platforms (Amazon Egypt, Noon, and Jumia).
+     - Automated deal evaluation: calculates price-to-rating ratios to identify high-value consumer bargains.
+     - End-to-end interface: exposed through FastAPI REST endpoints and visualized in an interactive React dashboard.
+
+3. Sprints Video Studio — AI Video Generation Platform
+   - GitHub Repository: https://github.com/MoHatemTC/ai-video-generation-app
+   - Project Type: Multi-Agent Automated Pedagogical Video Creator.
+   - Technologies: Python, LLM Orchestration, Autonomous SVG/HTML Renderers, Audio Timestamping, FastAPI.
+   - Key Architectural Highlights:
+     - Developed modular generation pipelines transforming raw curriculum texts into high-definition instructional videos.
+     - Autonomous visual asset creation: implemented rendering agents in Python producing SVG/HTML scenes reflecting the core conceptual lesson.
+     - High-precision audio alignment service generating millisecond-level TimestampMaps for synchronized visual state transitions.
+
+4. Mini-RAG: Deep Dive RAG Educational Implementation
+   - GitHub Repository: https://github.com/Osama2004o/mini-rag
+   - Project Type: Educational and Experimental Implementation of Core RAG Primitives.
+   - Course / Reference: Based on the Mini RAG Course by Abu Bakr Soliman.
+   - Key Architectural Highlights:
+     - Step-by-step implementation of custom chunking strategies (fixed, recursive, semantic).
+     - Embedding generation and vector similarity indexing from first principles.
+     - Integration of dense retrieval with vector stores and grounded prompt synthesis.
+
+5. AI Meeting Intelligence & Action Item Extractor
+   - Project Type: Speech-to-Text Meeting Transcription and Task Extraction Service.
+   - Tech Stack: Python, LangChain, OpenAI Whisper, FastAPI, ngrok, Pydantic.
+   - Key Architectural Highlights:
+     - End-to-end audio ingestion pipeline converting meeting recordings into transcribed dialog.
+     - Designed LangChain extraction chains utilizing strict Pydantic JSON schemas to parse decisions, owners, deadlines, and action items without format drift.
+     - Enabled remote GPU inference served over FastAPI tunnels via ngrok.
+
+6. Research Paper Summarization & Conversational Q&A (RAG)
+   - Project Type: Academic Paper Ingestion, Indexing, and Grounded Q&A Assistant.
+   - Tech Stack: Python, LangChain, Google Gemini API, FAISS.
+   - Key Architectural Highlights:
+     - Ingestion pipeline parsing complex multi-column academic PDF structures with recursive text chunking and metadata preservation.
+     - Embedded text passages into a FAISS index for high-speed nearest-neighbor retrieval.
+     - Conversational QA chain leveraging Google Gemini to generate answers strictly grounded in cited passages, accompanied by page-level citations.
+
+7. E-Commerce Pharmacy Platform
+   - Project Type: Full-Stack Medical Equipment E-Commerce System.
+   - Tech Stack: C#, ASP.NET Core Web API, React.js, Microsoft SQL Server.
+   - Key Architectural Highlights:
+     - Enterprise-grade architecture featuring role-based access control (RBAC) for customers, pharmacists, and administrators.
+     - End-to-end catalog browsing, order fulfillment, prescription tracking, and payment processing workflows.
+     - High-performance relational schema in SQL Server with EF Core index tuning.
+
+================================================================================
+SECTION 7: PROFESSIONAL CERTIFICATIONS & SPECIALIZED TRAINING
+================================================================================
+
+1. Supervised Machine Learning: Regression and Classification
+   - Issuing Organization: DeepLearning.AI / Coursera (Instructor: Andrew Ng)
+   - Date: May 2025
+   - Competencies: Cost functions, gradient descent, linear & logistic regression, regularization, vectorization in Python/NumPy.
+
+2. SprintUp: AI and Machine Learning Foundations
+   - Issuing Organization: Sprints
+   - Date: June 2025
+   - Competencies: Classical ML algorithms, feature engineering, model validation, and practical pipeline development.
+
+3. Getting Started with Deep Learning
+   - Issuing Organization: NVIDIA Deep Learning Institute (DLI)
+   - Date: September 2025
+   - Competencies: Deep neural networks, CNNs, transfer learning, data augmentation, GPU training acceleration.
+
+4. AI Agents Intensive & Multi-Agent Architecture
+   - Issuing Organization: Instant & Orange Digital Center (ODC)
+   - Date: July 2026
+   - Competencies: Multi-agent coordination, agent memory architectures, tool calling, autonomous agent design with CrewAI and LangGraph.
+
+================================================================================
+SECTION 8: CORE ARCHITECTURAL PATTERNS & ENGINEERING METHODOLOGIES
+================================================================================
+
+- Hallucination Control in RAG:
+  Osama employs dual-phase guardrails: (1) Contextual Query Rewriting to expand abbreviations and disambiguate references prior to vector search, and (2) Strict Prompt Constraints coupled with fallback policies ("If the context does not explicitly provide the answer, output 'I do not have sufficient information' rather than guessing"). This approach achieved a 91.3% grounded response rate in the DoCrops agricultural assistant.
+
+- Multi-Agent Orchestration:
+  Osama utilizes role-based agent architectures (via CrewAI and LangGraph) where distinct agents operate with specialized system prompts, dedicated tools (scrapers, parsers, validators), and Pydantic schemas. Inter-agent communication is structured to prevent unbounded recursion and ensure predictable JSON data interchange.
+
+- Edge AI and Quantization:
+  Experienced in taking computationally demanding deep neural networks (e.g., EfficientNet-B3) and applying post-training floating-point quantization (FP16) via TensorFlow Lite to achieve sub-second or near-real-time inference on resource-constrained mobile hardware (Android/Flutter).
+
+================================================================================
+SECTION 9: SYNTHETIC Q&A PAIRS FOR VECTOR RETRIEVAL GROUNDING
+================================================================================
+
+Q: Who is Osama Eslam Bayomi?
+A: Osama Eslam Bayomi is an AI Engineer and Computer Science graduate from Cairo University (Faculty of Computers and Artificial Intelligence, 2022–2026), based in Giza, Egypt. He specializes in Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), multi-agent systems, and production machine learning engineering.
+
+Q: What are Osama's primary technical skills and technologies?
+A: Osama's core technical stack includes Python, C#, SQL, FastAPI, ASP.NET Core, React, PyTorch, TensorFlow, TensorFlow Lite, Scikit-learn, LangChain, LangGraph, CrewAI, Gemini API, Whisper, FAISS, Docker, Linux, and Git.
+
+Q: What was Osama's graduation project and what did he build?
+A: Osama's graduation project was "DoCrops – Smart Agriculture Monitor" (GitHub: https://github.com/Osama2004o/DoCrops-FCAI-Graduation-Project). He engineered:
+1) An offline leaf disease classifier using EfficientNet-B3 quantized to TFLite (98.15% accuracy, 0.9818 weighted F1, 2.4s mobile inference).
+2) A Random Forest blight risk model (96.88% accuracy, 0.9818 AUC, <200ms latency via FastAPI).
+3) A bilingual Arabic/English RAG assistant using multilingual-e5 embeddings, FAISS, and Qwen2.5-7B with a 91.3% grounded-response rate.
+4) A confidence-gated treatment recommender (96.2% diagnosis accuracy above 0.75 confidence threshold) served via FastAPI and .NET Core to a Flutter client.
+
+Q: What experience does Osama have with Multi-Agent Systems?
+A: Osama has practical multi-agent experience across multiple projects:
+1) Product Market Analysis Multi-Agent Tool (GitHub: Osama2004o/Product-Market-Search) using CrewAI, LangChain, Playwright, and Gemini to concurrently scrape and rank deals across Amazon, Noon, and Jumia.
+2) Sprints Video Studio (GitHub: MoHatemTC/ai-video-generation-app) during his internship at Sprints.ai, building autonomous HTML/SVG render agents and script analysis agents.
+3) He holds the "AI Agents Intensive & Multi-Agent Architecture" certification from Instant & Orange Digital Center (July 2026).
+
+Q: What repositories has Osama published or contributed to on GitHub?
+A: Key repositories include:
+- DoCrops Graduation Project: https://github.com/Osama2004o/DoCrops-FCAI-Graduation-Project
+- AI Video Generation Platform: https://github.com/MoHatemTC/ai-video-generation-app
+- Product Market Search Multi-Agent: https://github.com/Osama2004o/Product-Market-Search
+- Mini-RAG Implementation: https://github.com/Osama2004o/mini-rag
+- Personal GitHub Profile: https://github.com/Osama2004o
+
+Q: What internships and professional experiences has Osama completed?
+A: Osama's experience includes:
+- SpaceTech (Sep 2026 – Present): AI Engineer Intern (Remote)
+- Sprints.ai (Jul 2026 – Aug 2026): AI Engineering Intern (Remote)
+- Tips Hindawi (Dec 2025 – Feb 2026): LLMs Intern (Remote)
+- DEPI (Jun 2025 – Dec 2025): Generative AI Professional (Giza, Egypt)
+- Genius Technology Center (Aug 2025 – Sep 2025): Machine Learning Intern (Remote)
+- DEPI (Apr 2024 – Dec 2024): Full Stack .NET Web Developer (Giza, Egypt)
+
+Q: How can Osama Eslam be contacted?
+A: Osama can be contacted via email at osamaeslam2013@gmail.com, by phone at +20 101 355 6509, on LinkedIn at https://www.linkedin.com/in/osamaeslam, or via GitHub at https://github.com/Osama2004o.
+================================================================================
+END OF KNOWLEDGE BASE DOCUMENT
+================================================================================
